@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2ecc71;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="grid_view" data-name="grid view" class="cls-1" d="M1129,329h6.03v5.929H1129V329Zm8.95,0H1144v6.012h-6.05V329Zm-8.95,8.9h6.01V344H1129v-6.1Zm8.97,0H1144V344h-6.03v-6.1Z" transform="translate(-1129 -329)"/>
+</svg>

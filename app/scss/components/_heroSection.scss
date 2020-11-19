@@ -1,0 +1,113 @@
+/* hero section */
+
+.hero {
+    background-image: url('../images/sunburst.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 46px;
+}
+  
+
+.hero__devices{
+    background-color: rgba(46, 204, 113, 0.8);
+    text-align: center;
+    display: block;
+    padding-bottom: 110px;
+    padding-top: 120px;
+}
+
+
+
+.hero__devices-imgone, .hero__devices-imgtwo, .hero__devices-imgthree {
+    margin-bottom: -180px;
+}
+
+.hero__devices-imgtwo {
+    margin-left: -180px;
+}
+
+.hero__devices-imgthree {
+    margin-left: -100px;
+}
+
+.hero__header-name {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(174, 173, 173);
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 110px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+}
+
+
+.hero__btn {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 204, 113);
+    width: 184px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero__devices-imgone, .hero__devices-imgtwo, .hero__devices-imgthree{
+    -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+    animation: 1s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.hero__header-name {
+    -webkit-animation: 2s ease 0s normal forwards 1 fading;
+    animation: 2s ease 0s normal forwards 1 fading;
+}
+
+@keyframes fading{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fading{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.hero__btn {
+    -webkit-animation: 3s ease 0s normal forwards 1 fading2;
+    animation: 3s ease 0s normal forwards 1 fading2;
+}
+
+@keyframes fading2{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fading2{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}

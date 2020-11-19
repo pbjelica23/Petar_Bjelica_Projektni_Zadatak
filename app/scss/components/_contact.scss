@@ -1,0 +1,100 @@
+#map {
+    height: 497px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact {
+      padding-top: 50px;
+       padding-bottom: 50px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 22%;
+  }
+  
+  .contact__first-heading {
+      padding-bottom: 20px;
+      font-size: 24px;
+      font-family: "Myriad Pro";
+      color: rgb(138, 136, 136);
+      font-weight: bold;
+      line-height: 0.917;
+  }
+  
+  .contact__first-paragraph {
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(138, 136, 136);
+    line-height: 1.571;
+  }
+
+  #myResultDiv  {
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    text-align: left;
+    color: rgb(138, 136, 136);
+  }
+
+  .contact__first__form-input {
+      height: 43px;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+    font-family: "HelveticaNeue";
+    color: rgb(115, 115, 115);
+    line-height: 1.571;
+    padding: 15px;
+  }
+  
+  .contact__first__form-btn {
+    background-color: rgb(46, 204, 113);
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.286;
+    width: 140px;
+    height: 40px;
+    border: none;
+  }
+  
+  .contact__second-heading {
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    color: rgb(138, 136, 136);
+    font-weight: bold;
+    line-height: 0.917;
+  }
+
+  .contact__second-paragraph {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(138, 136, 136);
+    line-height: 1.571;
+    padding-bottom: 5px;
+  }
+
+  .contact__second-paragraphSpecial {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(138, 136, 136);
+    line-height: 1.571;
+    padding-bottom: 50px;
+  }
+
+  .contact__second-paragraph-span {
+      color:  rgb(46, 204, 113);
+  }
+
+  .contact__second_paragraphs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+
+  

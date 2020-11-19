@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtmA8g3rvAwRorZLgkELkct756cdzTTZ0&callback=initMap&libraries=&v=weekly"
+    defer
+  ></script>
+  <title>Contact</title>
+  <meta name="description" content="Contact page of Display Bussiness Website">
+  <meta name="author" content="SitePoint">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- build:css css/slider.css -->
+  <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css">
+  <!-- endbuild -->
+
+</head>
+
+<body>
+  
+  <!-- header -->
+  <header class="container header">
+    <div class="header__first">
+        <img src="./images/logo.png" alt="Display Logo">
+        <div class="header__first-socialIcons">
+            <span class="icon-twitter"></span>
+            <span class="icon-facebook"></span>
+            <span class="icon-rss"></span>
+            <span class="icon-pinterest"></span>
+            <span class="icon-google-plus"></span>
+            <span class="icon-dribbble"></span>
+        </div>
+    </div>
+    <hr>
+    <div class="header__second">
+        <ul class="header__second-list">
+          <li><a href="./index.html" class="header__second-list--link">Home</a></li>
+          <li><a href="./about.html" class="header__second-list--link">About</a></li>
+          <li><a href="./work.html" class="header__second-list--link">Work</a></li>
+          <li><a href="./contact.html" class="header__second-list--link green">Contact</a></li>
+        </ul>
+        <div></div>
+    </div>
+</header>
+
+<!-- contact header -->
+<section class="about">
+    <div class="container container__about">
+        <h1 class="about__heading">GOT A QUESTION OR INQUIRY?</h1>
+    </div>
+</section>
+
+<!-- map -->
+<section class="maps">
+  <div id="map"></div>
+</section>
+
+<!-- contact form -->
+<section class="container contact">
+  <div class="contact__first">
+      <h1 id="myFormHeading" class="contact__first-heading">CONTACT FORM</h1>
+      <p id="myFormParagraph" class="contact__first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.</p>
+      <div id="myResultDiv"></div>
+      <form id="myForm" class="contact__first__form">
+        <input class="contact__first__form-input" type="text" id="fname" name="fname" placeholder="Name" size="50" required>
+        <br><br>
+        <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="contact__first__form-input" type="text" id="lname" name="lname" placeholder="Email Address" size="50" required>
+        <br><br>
+        <input class="contact__first__form-input" type="text" id="lname" name="lname" placeholder="Subject" size="50">
+        <br><br>
+        <textarea rows="14" cols="65" name="comment" maxlength="1000" required></textarea>       
+        <br><br>
+        <input type="submit" value="SEND MESSAGE" class="contact__first__form-btn">
+      </form> 
+    </div>
+  <div class="contact__second">
+    <h1 class="contact__second-heading">CONTACT INFO</h1>
+    <p class="contact__second-paragraph">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit velit justo.</p>
+    <p class="contact__second-paragraph">email: <span class="contact__second-paragraph-span">info@display.com</span><br>phone: 1.306.222.4545</p>
+    <p class="contact__second-paragraphSpecial">222 2nd Ave South<br>Saskabush, SK S7M 1T6</p>
+    <h1 class="contact__second-heading">STORE HOURS</h1>
+    <div class="contact__second_paragraphs">
+    <p class="contact__second-paragraph">Monday - Thursday<br>Friday<br>Saturday<br>Sunday & Holidays Closed</p>
+    <p class="contact__second-paragraph">8 am - 5 pm <br>8 am - 6 pm<br>9 am - 5pm<br>Closed</p>
+    </div>
+  </div>
+</section>   
+<!-- [^@\s]+@[^@\s]+\.[^@\s]+      -->
+
+<!-- footer -->
+<section class="footer">
+  <div class="container container__footer">
+  <h1 class="footer__heading">ARE YOU READY TO BE BLOWN AWAY?</h1>
+  <button class="footer__btn">CLICK HERE TO FIND OUT</button>
+</div>
+</section> 
+
+<footer class="footerTwo">
+  <div class="container container__footer">
+  <h1 class="footerTwo__heading">COPYRIGHT 2013 ALL RIGHTS RESERVED</h1>
+  <div class="footerTwo__links">
+    <a class="footerTwo__links--link" href="./index.html">HOME</a> / <a class="footerTwo__links--link" href="./about.html">ABOUT</a> / <a class="footerTwo__links--link" href="./work.html">WORK</a> / <a class="footerTwo__links--link" href="./contact.html">CONTACT</a>
+  </div>
+</div>
+</footer>
+
+
+
+
+
+  <!-- build:js js/main.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="./slick-1.8.1/slick/slick.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="js/js.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

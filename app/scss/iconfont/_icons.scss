@@ -1,0 +1,192 @@
+@font-face {
+
+	font-family: "icon";
+
+	src: url('../fonts/icon.eot');
+
+	src: url('../fonts/icon.eot?#iefix') format('eot'),
+
+		url('../fonts/icon.woff2') format('woff2'),
+
+		url('../fonts/icon.woff') format('woff'),
+
+		url('../fonts/icon.ttf') format('truetype'),
+
+		url('../fonts/icon.svg#icon') format('svg');
+
+}
+
+
+
+@mixin icon-styles {
+
+	font-family: "icon";
+
+		-webkit-font-smoothing: antialiased;
+
+		-moz-osx-font-smoothing: grayscale;
+
+	font-style: normal;
+
+	font-variant: normal;
+
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+
+%icon {
+
+	@include icon-styles;
+
+}
+
+
+
+@function icon-char($filename) {
+
+	$char: "";
+
+
+
+	@if $filename == bullet {
+
+		$char: "\E001";
+
+	}
+
+	@if $filename == dribbble {
+
+		$char: "\E002";
+
+	}
+
+	@if $filename == facebook {
+
+		$char: "\E003";
+
+	}
+
+	@if $filename == google-plus {
+
+		$char: "\E004";
+
+	}
+
+	@if $filename == gridview {
+
+		$char: "\E005";
+
+	}
+
+	@if $filename == listview {
+
+		$char: "\E006";
+
+	}
+
+	@if $filename == pinterest {
+
+		$char: "\E007";
+
+	}
+
+	@if $filename == rss {
+
+		$char: "\E008";
+
+	}
+
+	@if $filename == twitter {
+
+		$char: "\E009";
+
+	}
+
+
+
+	@return $char;
+
+}
+
+
+
+@mixin icon($filename, $insert: before, $extend: true) {
+
+	&:#{$insert} {
+
+		@if $extend {
+
+			@extend %icon;
+
+		} @else {
+
+			@include icon-styles;
+
+		}
+
+		content: icon-char($filename);
+
+	}
+
+}
+
+
+
+.icon-bullet {
+
+	@include icon(bullet);
+
+}
+
+.icon-dribbble {
+
+	@include icon(dribbble);
+
+}
+
+.icon-facebook {
+
+	@include icon(facebook);
+
+}
+
+.icon-google-plus {
+
+	@include icon(google-plus);
+
+}
+
+.icon-gridview {
+
+	@include icon(gridview);
+
+}
+
+.icon-listview {
+
+	@include icon(listview);
+
+}
+
+.icon-pinterest {
+
+	@include icon(pinterest);
+
+}
+
+.icon-rss {
+
+	@include icon(rss);
+
+}
+
+.icon-twitter {
+
+	@include icon(twitter);
+
+}
+

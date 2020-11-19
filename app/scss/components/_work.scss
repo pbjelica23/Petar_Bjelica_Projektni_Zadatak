@@ -1,0 +1,67 @@
+.work {
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.work__div {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 45px;
+}
+
+.work__div-span {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(115, 115, 115);
+    font-weight: bold;
+    line-height: 1.222;
+    cursor: pointer;
+    letter-spacing: 3px;
+} 
+
+#AllCategorie {
+    color: rgb(46, 204, 113);
+}
+
+.work__div-span:hover {
+    color: rgb(46, 204, 113);
+}
+
+.icon-gridview {
+    padding-right: 10px;
+}
+
+ .icon-listview {
+    color: rgb(115, 115, 115);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.icon-gridview {
+    color: rgb(46, 204, 113);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.icon-gridview:hover, .icon-listview:hover {
+    color: rgb(46, 204, 113);
+}
+
+.work__second-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5%;
+    padding-bottom: 10.2px;
+}
+
+.work__second-images--img {
+    width: 300px;
+    height: 220px;
+}
+
+.work__second-images--heading {
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    color: rgb(115, 115, 115);
+    font-weight: bold;
+}

@@ -1,0 +1,94 @@
+//--------------------------------------------------
+//Icon Fonts
+@import './iconfont/icons';
+//--------------------------------------------------
+
+//--------------------------------------------------
+//Fonts
+@import './base/fonts';
+//--------------------------------------------------
+
+//--------------------------------------------------
+//Config
+
+//--------------------------------------------------
+
+
+//--------------------------------------------------
+//Main
+//--------------------------------------------------
+
+
+//--------------------------------------------------
+//Components
+//--------------------------------------------------
+
+
+@import './components/header';
+@import './components/heroSection';
+@import './components/videoSection';
+@import './components/contentSlider';
+@import './components/footer';
+@import './components/about';
+@import './components/work';
+@import './components/contact';
+@import './components/media-queries';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container{
+    max-width: 941px;
+    margin: 0 auto;
+}
+
+.errorMessage {
+    font-size: 24px;
+    font-family: Myriad Pro;
+    color: rgb(138, 136, 136);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
+
+
+
+
+

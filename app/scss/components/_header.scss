@@ -1,0 +1,60 @@
+.header {
+    padding-top: 23px;
+}
+
+.header__first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.header__first-socialIcons {
+    margin-top: 20px;
+}
+
+.icon-twitter, .icon-facebook, .icon-rss, .icon-pinterest, .icon-google-plus, .icon-dribbble {
+    color: rgb(218, 218, 218);
+    font-size: 33px;
+    padding-right: 4.5px;
+}
+
+.icon-twitter:hover, .icon-facebook:hover, .icon-rss:hover, .icon-pinterest:hover, .icon-google-plus:hover, .icon-dribbble:hover {
+    color: rgb(0, 187, 245);
+}
+  
+.header__second{
+    padding-top: 24px;
+    padding-bottom: 20px;
+    display: flex;
+    
+}
+
+.header__second-list {
+    display: flex;
+}
+
+
+
+.header__second-list--link {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(115, 115, 115);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.green {
+    color: rgb(46, 204, 113);
+}
+
+
+.header__second-list li a:hover {
+    color: rgb(46, 204, 113);
+}
+
+
+
+  
