@@ -1,1 +1,10 @@
-# Projekat se pokreće putem Gulp-a. Prvo je potrebno globalno instalirati gulp putem komande npm install --global gulp-cli. Nakon toga, treba promijeniti direktorijum (cd) direktno u glavni folder koji sadrži app folder, gulpfile.js i ostalo. Posle toga, potrebno je instalirati node module putem komande npm install i nakon instalacije modula treba pokrenuti komandu gulp watch koja će pokrenuti projekat u browser-u na localhostu. Podrazumijeva se da je prije svega ovoga insaliran node.js i node package manager.
+#Gulp (HTML, SCSS, Javascript) project
+
+This is Front End project where HTML5, SCSS, JavaScript and JQuery are being used.
+You can run this project by:
+1. Globally installing GULP - npm install --global gulp-cli
+2. cd into main folder that contains app folder, gulpfile.js and the rest of the files
+3. Installing node modules with npm install command
+4. Running gulp watch command in this folder
+
+Of course, node.js and node package manager should be installed before all this.
